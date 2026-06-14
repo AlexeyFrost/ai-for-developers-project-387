@@ -10,7 +10,7 @@ export const owner: Owner = {
 const eventTypes: EventType[] = [
   {
     id: 'meeting-30',
-    title: 'Встреча 30 минут',
+    title: 'Созвон',
     description: 'Короткий созвон для обсуждения вопроса.',
     durationMinutes: 30,
   },
