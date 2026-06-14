@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2026-06-14)
+
+
+### Features
+
+* **project:** import calendar application ([e29dc41](https://github.com/AlexeyFrost/ai-for-developers-project-387/commit/e29dc41ef95256cc67842b0fbed1dbc0b24338bb))
+
 ## 1.0.0 (2026-06-13)
 
 
