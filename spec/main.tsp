@@ -208,7 +208,7 @@ op getOwner(): Owner;
     returnType: #[
       #{
         id: "meeting-30",
-        title: "Встреча 30 минут",
+        title: "Созвон",
         description: "Короткий созвон для обсуждения задачи или вопроса.",
         durationMinutes: 30,
       }
@@ -226,7 +226,7 @@ op listEventTypes(): EventType[];
     parameters: #{ eventTypeId: "meeting-30" },
     returnType: #{
       id: "meeting-30",
-      title: "Встреча 30 минут",
+      title: "Созвон",
       description: "Короткий созвон для обсуждения задачи или вопроса.",
       durationMinutes: 30,
     },
@@ -366,7 +366,7 @@ op listEventTypeSlots(
         id: "booking-1",
         eventType: #{
           id: "meeting-30",
-          title: "Встреча 30 минут",
+          title: "Созвон",
           description: "Короткий созвон для обсуждения задачи или вопроса.",
           durationMinutes: 30,
         },
@@ -423,7 +423,7 @@ op createAdminEventType(
     returnType: #[
       #{
         id: "meeting-30",
-        title: "Встреча 30 минут",
+        title: "Созвон",
         description: "Короткий созвон для обсуждения задачи или вопроса.",
         durationMinutes: 30,
       }

@@ -80,7 +80,7 @@ paths:
                   summary: Default admin event types
                   value:
                     - id: meeting-30
-                      title: Встреча 30 минут
+                      title: Созвон
                       description: Короткий созвон для обсуждения задачи или вопроса.
                       durationMinutes: 30
   /admin/event-types/{eventTypeId}:
@@ -122,7 +122,7 @@ paths:
                     id: booking-1
                     eventType:
                       id: meeting-30
-                      title: Встреча 30 минут
+                      title: Созвон
                       description: Короткий созвон для обсуждения задачи или вопроса.
                       durationMinutes: 30
                     guestName: Ivan
@@ -183,7 +183,7 @@ paths:
                   summary: Default event types
                   value:
                     - id: meeting-30
-                      title: Встреча 30 минут
+                      title: Созвон
                       description: Короткий созвон для обсуждения задачи или вопроса.
                       durationMinutes: 30
   /event-types/{eventTypeId}:
@@ -209,7 +209,7 @@ paths:
                   summary: Default event type
                   value:
                     id: meeting-30
-                    title: Встреча 30 минут
+                    title: Созвон
                     description: Короткий созвон для обсуждения задачи или вопроса.
                     durationMinutes: 30
         '404':

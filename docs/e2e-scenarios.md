@@ -9,7 +9,7 @@ The test should cover the primary successful booking path:
 1. The user opens the application.
 2. The user follows the `Записаться` link.
 3. The user sees the owner `Alexey Morozov`.
-4. The user sees the available event type `Встреча 30 минут`.
+4. The user sees the available event type `Созвон`.
 5. The user opens the date and time selection page.
 6. The user sees the calendar and the list of available slots.
 7. The user selects an available free slot.

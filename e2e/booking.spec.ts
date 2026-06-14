@@ -2,7 +2,7 @@ import { expect, test, type Locator, type Page } from '@playwright/test';
 
 const backendUrl = 'http://localhost:3001';
 const eventTypeId = 'meeting-30';
-const eventTitle = 'Встреча 30 минут';
+const eventTitle = 'Созвон';
 
 interface ApiSlot {
   startTime: string;
